@@ -15,4 +15,8 @@ class Calculator
   def divide(firstNumber, secondNumber)
     firstNumber / secondNumber
   end
+
+  def remainder(firstNumber, secondNumber)
+    firstNumber % secondNumber
+  end
 end

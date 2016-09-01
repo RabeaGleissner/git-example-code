@@ -19,4 +19,8 @@ describe Calculator do
     expect(calculator.divide(25,5)).to eq 5
   end
 
+  it "calculates the remainder of a division" do
+    expect(calculator.remainder(10, 3)).to eq 1
+  end
+
 end
