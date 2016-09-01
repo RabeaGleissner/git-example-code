@@ -4,10 +4,6 @@ class Calculator
     firstNumber + secondNumber
   end
 
-  def subtract(firstNumber, secondNumber)
-    firstNumber - secondNumber
-  end
-
   def multiply(firstNumber, secondNumber)
     firstNumber * secondNumber
   end

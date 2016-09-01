@@ -7,10 +7,6 @@ describe Calculator do
     expect(calculator.add(1,2)).to eq 3
   end
 
-  it "subtracts one number from another" do
-    expect(calculator.subtract(10,9)).to eq 1
-  end
-
   it "multiplies two numbers" do
     expect(calculator.multiply(2,4)).to eq 8
   end
