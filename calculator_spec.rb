@@ -15,8 +15,4 @@ describe Calculator do
     expect(calculator.multiply(2,4)).to eq 8
   end
 
-  it "divides a number" do
-    expect(calculator.divide(25,5)).to eq 5
-  end
-
 end

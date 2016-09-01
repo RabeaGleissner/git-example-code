@@ -11,8 +11,4 @@ class Calculator
   def multiply(firstNumber, secondNumber)
     firstNumber * secondNumber
   end
-
-  def divide(firstNumber, secondNumber)
-    firstNumber / secondNumber
-  end
 end
