@@ -23,4 +23,8 @@ class Calculator
   def square(number)
     number ** 2
   end
+
+  def power_of_three(number)
+    number ** 3
+  end
 end
