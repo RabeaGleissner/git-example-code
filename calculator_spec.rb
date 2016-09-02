@@ -23,4 +23,7 @@ describe Calculator do
     expect(calculator.remainder(10, 3)).to eq 1
   end
 
+  it "squares a number" do
+    expect(calculator.square(12)).to eq 144
+  end
 end
