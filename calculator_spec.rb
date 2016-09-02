@@ -33,14 +33,6 @@ describe Calculator do
     expect(calculator.remainder(10, 3)).to eq 1
   end
 
-  it "squares a number" do
-    expect(calculator.square(12)).to eq 144
-  end
-
-  it "calculates the power of three for a number" do
-    expect(calculator.power_of_three(2)).to eq 8
-  end
-
   it "calculates the square root" do
     expect(calculator.square_root(9)).to eq 3
   end
