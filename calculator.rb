@@ -19,4 +19,8 @@ class Calculator
   def remainder(firstNumber, secondNumber)
     firstNumber % secondNumber
   end
+
+  def square(number)
+    number ** 2
+  end
 end
