@@ -27,4 +27,8 @@ class Calculator
   def power_of_three(number)
     number ** 3
   end
+
+  def square_root(number)
+    Math.sqrt(number)
+  end
 end
