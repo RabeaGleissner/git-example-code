@@ -7,6 +7,16 @@ describe Calculator do
     expect(calculator.add(1,2)).to eq 3
   end
 
+  #just making sure that the addition method really works
+  it "adds two more numbers" do
+    expect(calculator.add(4,2)).to eq 6
+  end
+
+  #should probably test again
+  it "adds even more numbers" do
+    expect(calculator.add(8,2)).to eq 10
+  end
+
   it "subtracts one number from another" do
     expect(calculator.subtract(10,9)).to eq 1
   end
