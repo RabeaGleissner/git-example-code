@@ -5,7 +5,7 @@ class Calculator
   end
 
   def subtract(firstNumber, secondNumber)
-    firstNumber - 100
+    firstNumber - secondNumber
   end
 
   def multiply(firstNumber, secondNumber)
