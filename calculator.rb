@@ -1,4 +1,4 @@
-class Calculator
+class CalculatorMachine
 
   def add(firstNumber, secondNumber)
     firstNumber + secondNumber
